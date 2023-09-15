@@ -6,7 +6,8 @@
 .all-todos {
     width: 50%;
 }
-.all-todos>div{
+.todo {
+    margin-bottom: 10px;
     padding: 20px 30px;
     text-align: right;
     background-color: #fff;
@@ -17,10 +18,15 @@
     -o-border-radius: 16px;
 }
 
-.all-todos div p:first-child{
+.todo p:first-child{
     background-color: rgb(244, 244, 244);
     padding: 5px;
     height: 25px;
+    width: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
