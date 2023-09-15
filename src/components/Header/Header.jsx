@@ -1,11 +1,11 @@
 import React from 'react'
 import './Header.css'
 import logo from '../../assets/logo.png'
-const Header = () => {
+const Header = ({todos}) => {
     return (
         <div className='header'>
             <div>
-                <p>Your todo count : todo length</p>
+                <p>Your todo count : {todos.length}</p>
             </div>
             <div className='header-search'>
                 <p>search your todo</p>
