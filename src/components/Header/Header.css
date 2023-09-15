@@ -10,6 +10,7 @@
     -moz-border-radius: 0 0 20px 20px;
     -ms-border-radius: 0 0 20px 20px;
     -o-border-radius: 0 0 20px 20px;
+    top: 0;
 }
 .header div img {
     width: 40%;
