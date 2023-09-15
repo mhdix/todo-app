@@ -1,0 +1,33 @@
+.header{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: space-around   ;
+    align-items: center;
+    position: fixed;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
+}
+.header div img {
+    width: 40%;
+}
+.header .header-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .header-search p{
+    padding: 0 10px;
+}
+.header .header-search input {
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid rgb(183, 183, 183);
+}
